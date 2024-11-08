@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Api-call</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
     </head>
 
     <body>
         <h1>Enter a Disney character's name to see their picture :D</h1>
         <section>
-            <input placeholder="Enter Character Name">
-            <button onclick=" ">Find them!</button>
+            <input type="text" id="characterName" placeholder="Enter Character Name">
+            <button onclick="fetchData()">Find them!</button>
         </section>
 
-        <img src="mickey.jpg" alt="Disney Character">
-        
-    </body>
+        <img src="" alt="Disney Character selfie" id="characterImage" style="display:none">
 
+        <script src="script.js"></script>
+    </body>
 
 </html>
