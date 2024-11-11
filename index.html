@@ -15,24 +15,28 @@
         <section class="bg">
 
             <div class="bg_chars">
-                <img class="indiv_char" src="racermickey.png" alt="">
-                <img class="indiv_char" src="racerminnie.png" alt="">
-                <img class="indiv_char" src="redmickey.png" alt="">
-                <img class="indiv_char" src="redminnie.png" alt="">
+                <img src="racermickey.png" alt="">
+                <img src="racerminnie.png" alt="">
+                <img src="pink_minnie.png" alt="">
+                <img src="redmickey.png" alt="">
+                <img src="redminnie.png" alt="">
             </div>
 
-            <div class="overlay"></div>
+            <div class="corner_bg">
+                <img class="corner_bg-img-left" src="pink_minnie.png" alt="">
+            </div>
 
             <h1>Enter a Disney character's name to see their picture :D</h1>
             <section id="name_input">
                 <input type="text" id="characterName" placeholder="Enter Character Name">
                 <button onclick="fetchData()">Find them!</button>
             </section>
+            <div id="suggestions" style="display: none;"></div>
 
             <img src="" alt="Disney Character selfie" id="characterImage" style="display:none">
-
-
+            
         </section>
+
 
         <script src="script.js"></script>
     </body>
